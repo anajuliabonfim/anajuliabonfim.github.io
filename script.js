@@ -48,7 +48,7 @@ function setLang(l) {
   $("#pt").setAttribute("aria-pressed", l === "pt"); $("#en").setAttribute("aria-pressed", l === "en");
   $$("[data-t]").forEach(el => { const v = CONTENT[l][el.dataset.t]; if (typeof v === "string") el.textContent = v; });
   $$("[data-en]").forEach(el => { el.textContent = el.dataset[l]; });
-  const ph = document.querySelector(".photo img"); if (ph) ph.alt = l === "pt" ? "Foto de Ana Júlia Bonfim" : "Photo of Ana Júlia Bonfim";
+  document.querySelectorAll(".rv.in [data-n]").forEach(countUp);
   typeRole(); bootTerm(); renderStack();
 }
 $("#pt").addEventListener("click", () => setLang("pt"));
