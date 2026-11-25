@@ -1,5 +1,6 @@
 // Site copy in Portuguese and English
 const CONTENT = {
+  // Portuguese
  pt:{nav1:"Experiência",nav2:"Stack",nav3:"Contato",nav4:"Sobre",ab0:"Sobre mim",soon:"Em desenvolvimento",wip:"Site em desenvolvimento",cta1:"Ver experiência",f1:"Patos, Paraíba",f2:"Inglês fluente",f3:"Espanhol intermediário",
   n1:"pull requests",n2:"aprovados (merged)",n3:"linhas de código",n4:"sites em produção em que contribuo",ex0:"Experiência",ex1:"Estagiária de Desenvolvimento Web",ex2:"Rizoma · Estágio · out/2026 até o momento · remoto",
   c1w:"desde nov/2026",c1d:"Os problemas da Paraíba, cidade por cidade, com fonte.",c1a:"criação de páginas, cidade por cidade",c1b:"melhorias e correções no site",c1c:"pesquisa com dados abertos",
@@ -11,6 +12,7 @@ const CONTENT = {
   cmds:{help:"comandos: whoami · experiencia · stack · idiomas · contato · clear",whoami:"Ana Júlia Bonfim\nEstudante de Ciência da Computação na UEPB\nEstagiária de Desenvolvimento Web no Rizoma",
    experiencia:"Estagiária no Rizoma · desde out/2026\n· Mapa da Paraíba: criação de páginas, melhorias, dados abertos\n· Mapa do Segundo Turno: quatro páginas e reels",stack:"Nuxt · Vue.js · TypeScript · JavaScript · HTML · CSS\nPython · Git · GitHub · Linear · Claude Code",
    idiomas:"português nativo · inglês fluente · espanhol intermediário",contato:"anajuliaabonfim@gmail.com\nlinkedin.com/in/anajuliabonfim"}},
+  // English
  en:{nav1:"Experience",nav2:"Stack",nav3:"Contact",nav4:"About",ab0:"About me",soon:"In development",wip:"This site is under development",cta1:"View experience",f1:"Patos, Brazil",f2:"Fluent English",f3:"Intermediate Spanish",
   n1:"pull requests",n2:"merged",n3:"lines of code",n4:"live sites I contribute to",ex0:"Experience",ex1:"Web Development Intern",ex2:"Rizoma · Internship · Oct 2026 to present · Remote",
   c1w:"since Nov 2026",c1d:"Paraíba's public issues, city by city, with sources.",c1a:"page creation, city by city",c1b:"site improvements and fixes",c1c:"open data research",
@@ -24,4 +26,5 @@ const CONTENT = {
    languages:"Native Portuguese · Fluent English · Intermediate Spanish",contact:"anajuliaabonfim@gmail.com\nlinkedin.com/in/anajuliabonfim"}}
 };
 
+// logo slug, label, category
 const STACK = [["nuxt","Nuxt","fe"],["vuedotjs","Vue.js","fe"],["typescript","TypeScript","fe"],["javascript","JavaScript","fe"],["html5","HTML","fe"],["css","CSS","fe"],["python","Python","uni"],["git","Git","flow"],["github","GitHub","flow"],["linear","Linear","flow"],["claude","Claude Code","flow"]];
